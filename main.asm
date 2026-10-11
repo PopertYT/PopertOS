@@ -1,5 +1,5 @@
 bits 16
-org 0xC00
+org 0x7C00
 
 start:
     mov ah, 0x0E
