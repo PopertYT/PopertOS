@@ -21,25 +21,25 @@ start:
     int 0x10
     mov al 't'
     int 0x10
-    mov al 'o'
+    mov al, 'o'
     int 0x10
-    mov al ' '
+    mov al, ' '
     int 0x10
-    mov al 'P'
+    mov al, 'P'
     int 0x10
-    mov al 'o'
+    mov al, 'o'
     int 0x10
-    mov al 'p'
+    mov al, 'p'
     int 0x10
-    mov al 'e'
+    mov al, 'e'
     int 0x10
-    mov al 'r'
+    mov al, 'r'
     int 0x10
-    mov al 't'
+    mov al, 't'
     int 0x10
-    mov al 'O'
+    mov al, 'O'
     int 0x10
-    mov al 'S'
+    mov al, 'S'
     int 0x10
 
 hang:
